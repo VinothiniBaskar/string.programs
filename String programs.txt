@@ -1,0 +1,115 @@
+String programs
+
+1.How to reverse a string
+
+Pseudocode
+step1: declare a string with data
+step2: declare revstring with empty value
+step3: decalre a variable of type char
+step4: declare a for loop  for iterate 
+step:5 store the each character in ch variable using charAt method
+step:6 add the each character with the current revString
+step7: print the reversed String
+
+
+2.How to reverse a number
+step1:Declare a number with value
+step2:declare a reverse variable,reminder variable with the intial       value 0
+step3: use while loop for checking the number is        not equal to zero,If not equal to zero then        go the loop
+step4:mod the number and store it reminder variable
+step5:multiply the current reverse value and 10 and add the current reminder value 
+step6: divide the number and store the number for next iteration
+step7:print the reverse variable
+step8: for palindrome decalre temp variable and assign the number and to check in if condition -->if the temp and reversed number is equal it is plindrome otherwise not
+
+
+3.How to get a number of occurrences(particular letter) in a string
+
+step1:Declare a string with value
+step2:declare a totalCount varibale and get the length of the string using str.length() 
+step3:declare a afterCount varibale and use replace method in that method pass the particular character and repalce wirth empty and get the current length of the string
+step4:declare a count  -->substract the totalcount and afterCount
+step5:print the count
+
+4.Count the total number of characters in a string
+step1:Declare a string with value and count value as 0
+step2:create a for loop for iterate
+step3:checks the if condition -->if each character is not equal to empty count the character value
+step4:print the count
+
+5.Matching character in string
+step1:Declare a string with value
+step2:convert to tocharArray()
+step3:create HashMap with characher and integer value
+step4:iterate the for each loop
+step5:check if condition hmap.containsKey(c) and use put method add the character  and use get method + 1
+step6:else part if it not contains add the char by 1
+step7:print the hmap value
+
+6.Matching characters in two  strings
+step1:declare a strings as str1,str2
+step2:convert to toCharArray()
+step3:create two HashMap with characher and integer value
+step4:create a for each loop for HashMap1-->here checks if hmap contains char and add the char 
+step5:create a for each loop for HashMap2-->Here checks if hmap contains char and add it to hamp1
+step6:print the hmap1
+
+7.Remove the special character in String
+step1:declare a string 
+step2:declare a removeSpec variable 
+step3:In the variable use replaceAll method and pass the arguments as
+ ("[^a-z0-9]",")
+step4:print the removeSpec
+
+step8:
+8.Remove the digit in a String
+step1:declare a string 
+step2:declare a removeDigit variable 
+step3:In the variable use replaceAll method and pass the arguments as
+ ("\\d"," ")
+step4:print the removeDigit 
+
+9.Anagram program
+step1:Decalre a strings with values 
+step2:convert to toCharArray
+step3:sort the arrays
+step4:declare a boolean value as true
+step5:iterate the for loop for arr1
+step6:create if condtion and checks if the each char is not equal to next array each char -->not anangram and set as flase and give break
+step7:if equals execute the banagram is true
+step8:print the anagaram
+
+10.Swap two strings
+step1:decalre a string a
+step2:decalre a string b
+step3:add the a and b  store in a
+step4:use substring method and split the index 0 and substract the length a and b and stores in b 
+step5:use substring method use b.length and store the value in a
+step6:print the a and b
+
+11.count the vowels and consonants in string
+step1:declare a string
+step2:decalre a vowelsCount and consonantCount as 0
+step3:convert to char array
+step4:iterate the for loop
+step5:if condition -->check if the ch is equal to vowels like a,e,i,o,u increment the vowelCount otherwise increment the consonantCount 
+step6:print the consonantCount and vowelsCount
+
+12.Non Repeating character in string
+step1:
+step2:
+step3:
+step4:
+step5:
+step6:
+step7:
+step8:
+13.Palindrome or not in string
+step1:
+step2:
+step3:
+step4:
+step5:
+step6:
+step7:
+step8:
